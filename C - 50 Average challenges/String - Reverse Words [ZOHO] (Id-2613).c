@@ -1,3 +1,4 @@
+/*
 A string S is passed as the input. The program must reverse the order of the words in the string and print them as the output. 
 
 Input Format:  The first line will contain S. 
@@ -17,7 +18,7 @@ Output: eleven ten six five
 
 
 Solution:
-
+*/
 #include<stdio.h>
 #include<stdlib.h>
 
