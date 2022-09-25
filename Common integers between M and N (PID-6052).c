@@ -1,9 +1,7 @@
 /*
-
 Accept a list of M and N integers as the input. The program must print the common unique integers between the two lists M and N in the order given in M. If there is no common unique integer then the program must print "Invalid" as the output.
 
 Solution:
-
 */
 
 #include<stdio.h>
