@@ -1,3 +1,4 @@
+/*
 Four towers A, B, C, D are to be erected. Tower A is to communicate with tower C. Tower B is to communicate with tower D. Line of sight issue can occur under the following conditions - when tower B or D is in the straight line connecting A and C - when tower A or C is in the straight line connecting B and D The program must accept the co-ordinates of all four towers and print yes or no depending on whether Line of sight issue will occur or not. 
 
 Input Format:  The first line will contain X and Y co-ordinates of tower A separated by a space. 
@@ -20,7 +21,7 @@ Output: no
 
 
 Solution:
-
+*/
 #include<stdio.h>
 #include<stdlib.h>
 
