@@ -1,3 +1,4 @@
+/*
 A string S is passed as the input. Two words W1 and W2 which are present in the string S are also passed as the input. The program must find the minimum distance D between W1 and W2 in S (in forward or reverse order) and print D as the output. 
 
 Input Format:  The first line will contain S. 
@@ -21,7 +22,7 @@ Output: 3
 
 
 Solution:
-
+*/
 #include<stdio.h>
 #include<stdlib.h>
 
