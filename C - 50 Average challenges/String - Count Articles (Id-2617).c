@@ -1,3 +1,4 @@
+/*
 A string S is passed as the input. The program must print the number of articles (a, an and the) in S. The string S passed as the input NEED NOT be correct grammatically. 
 
 Input Format:  The first line will contain S 
@@ -18,7 +19,7 @@ Output: 8
 
 
 Solution:
-
+*/
 #include<stdio.h>
 #include<stdlib.h>
 
