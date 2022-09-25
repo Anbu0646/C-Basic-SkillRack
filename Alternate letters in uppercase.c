@@ -1,5 +1,4 @@
 /*
-
 A String S(only alphabets) is passed as input. The printed output should contain alphabets in odd positions in each word in uppercase and alphabets in even positions in each word in lowercase. 
 
 Input format: 
@@ -24,8 +23,8 @@ Output:
 FlOwEr Is BeAuTiFuL
 
 Solution:
-
 */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
