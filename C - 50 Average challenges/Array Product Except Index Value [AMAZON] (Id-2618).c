@@ -1,10 +1,11 @@
+/*
 An array of N integers with non-zero values is passed as the input to the program. The program must print another array of size N where value at each index will be the product of all values in the input array except the value at that index in the input array. 
 
 Input Format:  The first line will contain N integers separated by a space. 
 Output Format: The first line will contain N integers separated by a space. 
 
 Boundary Conditions: The length of the input containing N integers will be from 3 to 100. 
-			   The integer values will be from 1 to 100. 
+		     The integer values will be from 1 to 100. 
 
 Example Input/Output 1: 
 
@@ -23,7 +24,7 @@ Output: 100 21
 
 
 Solution:
-
+*/
 #include<stdio.h>
 #include<stdlib.h>
 
