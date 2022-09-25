@@ -1,4 +1,5 @@
-/*The program must accept a string S as the input. The program must print the pattern as shown in the Example Input/Output section. 
+/*
+The program must accept a string S as the input. The program must print the pattern as shown in the Example Input/Output section. 
 
 Boundary Condition: 3 <= Length of S <= 101 
 
