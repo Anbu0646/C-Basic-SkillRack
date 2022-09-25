@@ -1,30 +1,30 @@
-
+/*
 Given a string s, the program must print the count of sub palindromes (with a minimum length of two characters) in the string s. 
 
-boundary conditions: length of the string is between 2 and 200. 
+Boundary conditions: length of the string is between 2 and 200. 
 
-input format:  first line will contain the string value s. 
-output format: first line will contain the integer which represents the count of sub palindromes in the string s. 
+Input format:  First line will contain the string value s. 
+Output format: First line will contain the integer which represents the count of sub palindromes in the string s. 
 
-sample input/output: 
+Sample input/output: 
 
-example 1: 
+Example 1: 
 
-input:  everest 
-output: 2 
+Input:  everest 
+Output: 2 
 
-explanation: the sub palindromes are eve, ere 
+Explanation: the sub palindromes are eve, ere 
 
-example 2: 
+Example 2: 
 
-input:  abccbaab 
-output: 5 
+Input:  abccbaab 
+Output: 5 
 
-explanation: the sub palindromes are cc, bccb, aa, baab, abccba
+Explanation: the sub palindromes are cc, bccb, aa, baab, abccba
 
 
 Solution:
-
+*/
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -40,7 +40,6 @@ int pal(char s[], int i, int j)
     }
     return 1;
 }
-
 
 int main()
 {
