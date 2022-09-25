@@ -1,3 +1,4 @@
+/*
 Two soccer teams A and B play a series of matches over a period of time. In a match, the winning team gets 3 points. If the match ends in a tie (draw) with both teams scoring same goals, then both the teams get one point each. The losing team does not get any point. The program must accept the goals scored by both team A and B in certain number of matches and print the cumulative scores of team A and B separated by a space. 
 
 Input Format:  First line will contain the goals scored by team A, with the goal values separated by a space. 
@@ -15,7 +16,7 @@ Explanation: Team A drew the first match and hence both team A and B got one poi
 
 
 Solution:
-
+*/
 #include<stdio.h>
 #include<stdlib.h>
 
