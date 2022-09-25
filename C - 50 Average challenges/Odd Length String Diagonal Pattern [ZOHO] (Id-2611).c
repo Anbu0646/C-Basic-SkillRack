@@ -1,3 +1,4 @@
+/*
 An odd length string S of length L is passed as the input. The program must print the string S as two diagonals as shown in the example Input/Output below. 
 
 Input Format: The first line will contain S.
@@ -7,15 +8,14 @@ Boundary Conditions: Length of S is from 3 to 51.
 
 Example Input/Output 1: 
 
-Input: cry 
-Output:
- c y 
-  r 
- c y 
+Input:  cry 
+Output: c y 
+         r 
+        c y 
 
 
 Solution:
-
+*/
 #include<stdio.h>
 #include<stdlib.h>
 
