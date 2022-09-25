@@ -1,5 +1,4 @@
-Print the Floating Point Values
-
+/*
 The program must accept a string value S as the input. The program must print all the floating point values in the string S as output.
 Boundary Condition(s):
 
@@ -34,8 +33,7 @@ Output:
 
 
 Solution:
-
-C:
+*/
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -75,33 +73,3 @@ int main()
     }
 
 }
-
-
-
-Python:
-
-1.
-
-import re
-s = input().strip()
-print(*re.findall("(\d+\.\d+)", s), sep = '\n')
-
-
-2.
-
-s = input().strip()
-d = ""
-for i in s:
-    if i.isnumeric() or i == ".":
-        d += i 
-    else:
-        if "." in (d):
-            print(d)
-            d = ""
-        else:
-            d = ""
-if "." in d:
-    print(d)
-
-
-
