@@ -1,3 +1,4 @@
+/*
 To encrypt messages Jil will first decide on the number of columns C to use. Then Jil will pad the message with letters chosen randomly so that they form a rectangular matrix. Finally Jil will write down the message navigating the rows from left to right and then from right to left. The program must accept the encrypted message M as input and then extract and print the original message (along with any additional padding letters) from the encrypted one based on the value of C. 
 
 Boundary Conditions: Length of M is from 4 to 200. 
@@ -26,7 +27,7 @@ Explanation: l o a e s i a n b f o r d i l n e t r e r d h d w Here there are no
 
 
 Solution:
-
+*/
 #include<stdio.h>
 #include<stdlib.h>
 
