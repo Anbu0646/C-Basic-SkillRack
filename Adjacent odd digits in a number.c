@@ -4,7 +4,7 @@
 int main()
 { 
     long int a;
-    scanf("%li",&a);
+    scanf("%ld",&a);
     int b[1000];
     int c=0;
     while(a>0)
