@@ -1,3 +1,4 @@
+/*
 A number N indicating the number of rows in Floyd's triangle is passed as the input. The program must print the Floyd's triangle pattern. 
 
 Input Format:  The first line will contain N. 
@@ -27,7 +28,7 @@ Output: 1
 
 
 Solution:
-
+*/
 #include<stdio.h>
 #include<stdlib.h>
 
