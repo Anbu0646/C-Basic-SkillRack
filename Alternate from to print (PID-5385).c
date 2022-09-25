@@ -1,12 +1,11 @@
+/*
 INPUT:
-
 6
 4 5 6 7 8 9
 
 OUTPUT:
 4 5 6 5 6 7 8 7 8 9 
-
-PROGRAM: C:
+*/
 
 #include<stdio.h>
 #include <stdlib.h>
