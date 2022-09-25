@@ -1,4 +1,4 @@
-*/
+/*
 A string S is passed as the input. S has at least one repeating character. The program must print the first repeating character C.
 
 Input Format: The first line contains S.
@@ -13,17 +13,14 @@ Output:
 
 b
 
-*/
-
 Solution:
+*/
 
 #include<stdio.h> 
 #include<stdlib.h>
 
 int main()
-
 {
-
 	char s[101], c='f'; 
 	scanf("%[^\n]", s); 
 	int l=strlen(s);
@@ -49,8 +46,3 @@ int main()
 	}
 
 }
-
-
-
-
-
