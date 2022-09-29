@@ -42,3 +42,16 @@ int main()
         printf("%s ", r[i]);
     return 0;
 }
+
+/*
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+    char ch[1001][1001];
+    int len=0;
+    while(scanf("%s",ch[len++])>0);
+    for(int i=len-1;i>=0;printf("%s ",ch[i--]));
+}
+*/
