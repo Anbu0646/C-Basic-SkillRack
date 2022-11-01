@@ -14,10 +14,69 @@ Input:  3 5 3
         3 1 4 9 4 
         1 2 8 5 9 
         0 7 2 2 8 
-        45 54 45 47
-        49 60 44 46 44 
-Output: 3 45 1 54 4 45 
-        9 4 1 47 2 49 
-        8 60 5 9 0 44 7 46 2 44 2 8 Explanation: The columns of the first matrix are interlaced with the columns of the second matrix. 3 45 1 54 4 45 9 4 1 47 2 49 8 60 5 9 0 44 7 46 2 44 2 8 Example Input/Output 2: Input: 4 3 4 54 49 40 45 97 77 51 62 67 9 59 5 58 89 97 46 7 16 60 44 59 95 44 7 64 55 61 31 Output: 54 58 49 89 40 97 46 45 7 97 16 77 60 44 51 59 62 95 67 44 7 9 64 59 55 5 61 31
+        45 54 45 
+        47 49 60 
+        44 46 44 
+        
+Output: 3 45 1 54 4 45 9 4 
+        1 47 2 49 8 60 5 9 
+        0 44 7 46 2 44 2 8 
+        
+Explanation: The columns of the first matrix are interlaced with the columns of the second matrix. 
+             3 45 1 54 4 45 9 4 
+             1 47 2 49 8 60 5 9 
+             0 44 7 46 2 44 2 8 
+             
+Example Input/Output 2: 
 
+Input:  4 3 4 
+        54 49 40 
+        45 97 77
+        51 62 67 
+        9  59 5 
+        58 89 97 46
+        7 16 60 44 
+        59 95 44 7 
+        64 55 61 31 
+        
+Output: 54 58 49 89 40 97 46 
+        45  7 97 16 77 60 44 
+        51 59 62 95 67 44  7
+         9 64 59 55  5 61 31
+
+SOLUTION:
 */
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+int r, m, n;
+scanf("%d %d %d", &r, &m, &n);
+int mat[r][m], mat1[r][n];
+for(int i=0; i<r; i++)
+{
+    for(int j=0; j<m; j++)
+    {
+        scanf("%d", &mat[i][j]);
+    }
+}
+for(int i=0; i<r; i++)
+{
+    for(int j=0; j<n; j++)
+    {
+        scanf("%d", &mat1[i][j]);
+    }
+}
+for(int i=0; i<r; i++)
+{
+    for(int j=0; j<m||j<n; j++)
+    {
+        if(j<m)printf("%d ", mat[i][j]);
+        if(j<n)printf("%d ", mat1[i][j]);
+    }
+    printf("\n");
+}
+}
+
+
