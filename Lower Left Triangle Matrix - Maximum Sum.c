@@ -49,3 +49,35 @@ Output: 4
         
 SOLUTION:
 */
+
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+    int n, s1=0, s2=0;
+    scanf("%d", &n);
+    int mat[n][n], mat1[n][n];
+  
+    for(int i=0; i<n; i++, printf("\n"))
+        for(int j=0; j<n; j++)
+        {
+            scanf("%d ", &mat[i][j]);
+            if(i>=j)
+              s1+=mat[i][j];
+        }
+    
+    for(int i=0; i<n; i++, printf("\n"))
+        for(int j=0; j<n; j++)
+        {
+            scanf("%d ", &mat1[i][j]);
+            if(i>=j)
+              s2+=mat1[i][j];
+        }
+  
+    for(int i=0; i<n; i++, printf("\n"))
+        for(int j=0; j<=i; j++)
+            (s1>=s2) ? printf("%d ", mat[i][j]) : printf("%d ", mat1[i][j]);
+    
+return 0;
+}
