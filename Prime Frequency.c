@@ -1,5 +1,7 @@
 /*
 
+INPUT:  ccbbef
+OUTPUT: NO
 
 SOLUTION:
 */
