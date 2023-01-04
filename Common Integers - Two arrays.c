@@ -44,13 +44,13 @@ int main()
             }
         }
     }
-    for(int i=0; i<m; i++)
+    for(int i=0; i<n1; i++)
     {
-        for(int j=i+1; j<m; j++)
+        for(int j=i+1; j<n1; j++)
         {
-            if(b[i]==b[j])
+            if(brr[i]==brr[j])
             {
-                b[j]=-1;
+                brr[j]=-1;
             }
         }
     }
