@@ -17,7 +17,12 @@ Input:  6
         16 121 12 15 20 23 
 Output: 16 121 16 12 121 16 15 12 121 16 20 23 20 15 12 
 
-Explanation: Consider 16. Here X = 6. But as there is no previous value. So we just print 16. Consider 121. Here X = 1. So we print 1 previous value after printing 121. Hence the output is 121 16. Consider 12. Here X = 2. So we print 12 and previous two integer values which are 12 121 16. Consider 15. Here X = 5. So we print 15 followed by 12 121 16 (As there are no previous five values we print till the first value and stop). Consider 20. Here X = 0. So we stop with just printing 20 (As zero previous values are to be printed). Consider 23. Here X = 3. So we print 23 followed by the previous three values 20 15 12. 
+Explanation: Consider 16. Here X = 6. But as there is no previous value. So we just print 16. 
+             Consider 121. Here X = 1. So we print 1 previous value after printing 121. Hence the output is 121 16. 
+             Consider 12. Here X = 2. So we print 12 and previous two integer values which are 12 121 16. 
+             Consider 15. Here X = 5. So we print 15 followed by 12 121 16 (As there are no previous five values we print till the first value and stop). 
+             Consider 20. Here X = 0. So we stop with just printing 20 (As zero previous values are to be printed). 
+             Consider 23. Here X = 3. So we print 23 followed by the previous three values 20 15 12. 
 
 Example Input/Output 2: 
 
