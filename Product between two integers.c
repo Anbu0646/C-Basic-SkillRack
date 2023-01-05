@@ -10,7 +10,8 @@ Output Format: The first line contains the product of the integers which are pre
 
 Example Input/Output 1: 
 
-Input:  9 10 -12 3 4 2 -24 5 3 -15 
+Input:  9 
+        10 -12 3 4 2 -24 5 3 -15 
 Output: 24 15 
 
 Explanation:  The first two negative elements are -12 and -24. 
@@ -20,7 +21,8 @@ Explanation:  The first two negative elements are -12 and -24.
 
 Example Input/Output 2: 
 
-Input:  8 -10 20 3 -45 10 20 22 -4 
+Input:  8 
+       -10 20 3 -45 10 20 22 -4 
 Output: 60 4400
 
 SOLUTION:
