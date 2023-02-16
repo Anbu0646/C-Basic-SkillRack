@@ -1,7 +1,7 @@
 /*
 An odd length string S of length L is passed as the input. The program must print the string S as two diagonals as shown in the example Input/Output below. 
 
-Input Format: The first line will contain S.
+Input Format:  The first line will contain S.
 Output Format: L lines will contain the pattern as shown in the example Input/Output below. 
 
 Boundary Conditions: Length of S is from 3 to 51. 
