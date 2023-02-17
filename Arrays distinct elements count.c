@@ -29,7 +29,7 @@ Input:  3 2
 
 Output: 5
 
-
+SOLUTION:
 */
 
 #include<stdio.h>
@@ -80,5 +80,5 @@ int main()
         }
     }
     
-    printf("%d", m+n-(c*2)+c1);
+    printf("%d", m+n-(c*2)-c1);
 }
