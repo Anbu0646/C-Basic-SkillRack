@@ -45,3 +45,82 @@ Explanation: As -10 is passed as runs scored in the input, the program must prin
 SOLUTION:
 */
 
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+    int r1[20], r2[20];
+    char r3[201], r4[201];
+    scanf("%[^\n]", r3);
+    scanf("\n");
+    scanf("%[^\n]", r4);
+    int l3=strlen(r3), l4=strlen(r4), a=0, b=0, c=0, d=0, e=0, avg1, avg2;
+    
+    for(int i=0; i<=l3; i++)
+    {
+        if(r3[i]=='-')
+        {
+            printf("INVALIDINPUT");
+            return;
+        }
+        else if(isdigit(r3[i]))
+        {
+            a=(a*10)+(r3[i] - '0');
+        }
+        else if(r3[i]==' '||r3[i]=='\0')
+        {
+            r1[b++]=a;
+            a=0;
+        }
+    }
+    
+    for(int i=0; i<=l4; i++)
+    {
+        if(r4[i]=='-')
+        {
+            printf("INVALIDINPUT");
+            return;
+        }
+        else if(isdigit(r4[i]))
+        {
+            a=(a*10)+(r4[i] - '0');
+        }
+        else if(r4[i]==' '||r4[i]=='\0')
+        {
+            r2[c++]=a;
+            a=0;
+        }
+    }
+    
+    for(int i=0; i<b; i++)
+    {
+        if(r1[i]>=0)
+        {
+            d+=r1[i];
+        }
+    }
+    
+    for(int j=0; j<c; j++)
+    {
+        if(r2[j]>=0)
+        {
+            e+=r2[j];
+        }
+    }
+    
+    avg1=d/b; avg2=e/c;
+    
+    if(avg1>avg2)
+    {
+        printf("%d", d);
+    }
+    else if(avg1==avg2)
+    {
+        printf("%d", (d>e)?d:e);
+    }
+    else
+    {
+        printf("%d", e);
+    }
+}
