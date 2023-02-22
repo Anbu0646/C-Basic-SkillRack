@@ -31,36 +31,23 @@ Explanation: 305 and 794 when reversed are 503 and 497. 503+497 = 1000. 1000 whe
 SOLUTION:
 */
 
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+
+int rev(int n)
+{
+    int s = 0;
+    while(n > 0)
+    {
+        s = (s * 10) + (n % 10);
+        n /= 10;
+    }
+    return s;
+}
 
 int main()
 {
-    int x, y, s=0, s1=0, s2=0, s3=0;
-    scanf("%d\n %d", &x, &y);
-    
-    while(x>0)
-    {
-        s1=(s1*10)+(x%10);
-        x/=10;
-    }
-    
-
-    while(y>0)
-    {
-        s2=(s2*10)+(y%10);
-        y/=10;
-    }
-    
-
-    s3=s1+s2;
-    
-    while(s3>0)
-    {
-        s=(s*10)+(s3%10);
-        s3/=10;
-    }
-    
-
-    printf("%d", s);
+    int x, y;
+    scanf("%d%d", &x, &y);
+    printf("%d", rev(rev(x) + rev(y)));
+    return 0;
 }
