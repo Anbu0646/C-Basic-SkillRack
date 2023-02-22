@@ -10,7 +10,7 @@ Input Format:  The first line will contain N and M separated by a space.
 Output Format: First line will contain either Yes or No (Yes for cancellation of the class and No if the class is not cancelled). 
 
 Boundary Conditions: 3 <= N <= 50 
-2 <= M <= N 
+                     2 <= M <= N 
 
 Example Input/Output 1: 
 
