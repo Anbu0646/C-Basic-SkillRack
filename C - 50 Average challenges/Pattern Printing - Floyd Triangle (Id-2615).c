@@ -34,14 +34,14 @@ Solution:
 
 int main()
 {
-    int n, i=1, j=1;
+    int n, j=1;
     scanf("%d", &n);
-    while(i <= n){
-        int k=1;
-        while(k <= i){
+    
+    for(int i=0; i<=n; i++, printf("\n")
+    {
+        for(int k=1; k<=i; k++)
+        {
             printf("%d ", j++);
-            k++;
         }
-    printf("\n"); i++;
     }
 }
