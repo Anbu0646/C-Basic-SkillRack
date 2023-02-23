@@ -19,6 +19,19 @@ Output: eleven ten six five
 
 Solution:
 */
+
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+    char ch[1001][1001];
+    int len=0;
+    while(scanf("%s", ch[len++])>0);
+    for(int i=len-1; i>=0; printf("%s ", ch[i--]));
+}
+
+/*
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -41,17 +54,5 @@ int main()
     for(i=a; i>=0; i--)
         printf("%s ", r[i]);
     return 0;
-}
-
-/*
-#include<stdio.h>
-#include<stdlib.h>
-
-int main()
-{
-    char ch[1001][1001];
-    int len=0;
-    while(scanf("%s",ch[len++])>0);
-    for(int i=len-1;i>=0;printf("%s ",ch[i--]));
 }
 */
