@@ -12,6 +12,7 @@ INPUT 2:
 OUTPUT 2:
 131
 
+SOLUTION:
 */
 
 #include<stdio.h>
