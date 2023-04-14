@@ -20,6 +20,50 @@ Output: 1 0
 
 SOLUTION:
 */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() 
+{
+    int arr[1001], n, i, j;
+    int first = 0, second = 0;
+
+    scanf("%d", &n);
+
+    for (i=0; i<n; i++) 
+    {
+        scanf("%d ", &arr[i]);
+    }
+
+    for (i=0; i<n; i++) 
+    {
+        for (j=i + 1; j<n; j++) 
+        {
+            if (arr[i] == arr[j]) 
+            {
+                if (arr[i] > first) 
+                {
+                    second = first;
+                    first  = arr[i];
+                }
+                else if (arr[i] > second && arr[i] != first) 
+                {
+                    second = arr[i];
+                }
+            }
+        }
+    }
+
+    printf("%d %d", first, second);
+
+    return 0;
+}
+
+/*
+
+Aliter:
+
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -64,3 +108,4 @@ int main()
     printf("%d %d", r[0], r[1]);
     return 0;
 }
+*/
