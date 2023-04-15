@@ -14,6 +14,31 @@ Output: -1
 Soution:
 */
 
+#include <stdio.h>
+#include <string.h>
+
+int main() 
+{
+  char num[100];
+  scanf("%s", num);
+  int len = strlen(num) - 1, flag = 1;
+  
+  while (len >= 0) 
+  {
+    if (num[len - 1] == num[len] && num[len + 1] != num[len]) 
+    {
+      printf("%c", num[len]);
+      flag = 0;
+    }
+    len--;
+  }
+  
+  if (flag) printf("-1");
+  return 0;
+}
+
+
+/*
 #include<stdio.h>
 #include<stdlib.h>
 int main()
@@ -40,3 +65,4 @@ int main()
     else
         for(int i=l-1; i>=0; printf("%c",arr1[i--]));
 }
+*/
